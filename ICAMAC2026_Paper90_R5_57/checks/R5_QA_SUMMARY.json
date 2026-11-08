@@ -1,0 +1,34 @@
+{
+  "versions": "R5",
+  "status": "MAJOR_REVISION_SOURCE_AND_AUTHOR_HOLD",
+  "pages": {
+    "ICAMAC_Paper90_R5_AuthorLinked_5pages.pdf": 5,
+    "ICAMAC_Paper90_R5_Blind_5pages.pdf": 5,
+    "ICAMAC_Paper90_R5_CAMERA_READY_PRODUCTION_HOLD_NO_AUTHORS.pdf": 5,
+    "ICAMAC_Paper90_R5_FieldGuide_and_57_BLIND.pdf": 10,
+    "ICAMAC_Paper90_R5_Evidence_Addendum_FieldGuide_and_57.pdf": 10,
+    "reader_combined": 15
+  },
+  "urls": {
+    "ICAMAC_Paper90_R5_AuthorLinked_5pages.pdf": 39,
+    "ICAMAC_Paper90_R5_Blind_5pages.pdf": 34,
+    "ICAMAC_Paper90_R5_CAMERA_READY_PRODUCTION_HOLD_NO_AUTHORS.pdf": 39,
+    "ICAMAC_Paper90_R5_FieldGuide_and_57_BLIND.pdf": 64,
+    "ICAMAC_Paper90_R5_Evidence_Addendum_FieldGuide_and_57.pdf": 67
+  },
+  "locked": {
+    "N": 57,
+    "E": 20,
+    "P": 12,
+    "U": 25,
+    "L3E": 1,
+    "L4E": 6,
+    "D": 5
+  },
+  "references": {
+    "cited": 33,
+    "listed": 33,
+    "undefined": 0,
+    "uncited": 0
+  }
+}

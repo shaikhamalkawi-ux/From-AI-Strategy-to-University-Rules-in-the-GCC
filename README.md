@@ -1,5 +1,21 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Current research-author revision — R5 (8 November 2026)
+
+**[Open the R5 version-matched source, paper, supplements and reusable data](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57)**
+
+- [**R5 manuscript — 5 IEEE pages (author-linked PDF)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57/manuscript/ICAMAC_Paper90_R5_AuthorLinked_5pages.pdf)
+- [**R5 linked appendix + evidence scope addendum — 10 PDF pages**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57/supplement/ICAMAC_Paper90_R5_Evidence_Addendum_FieldGuide_and_57.pdf)
+- [**R5 12-sheet reproducible/blank audit workbook — Excel**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57/resources/ICAMAC_Paper90_R5_Reusable_Audit_Workbook.xlsx)
+- [Editable R5 LaTeX source](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57/source/ICAMAC_Paper90_R5_Authored_EvidenceClosure.tex)
+- [R5 claim-boundary and source-check audit](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57/checks/R5_SCIENTIFIC_SCOPE_AND_SOURCE_QA.md)
+
+R5 is **not yet IEEE PDF eXpress validated** and **not author-complete camera ready**. Important source-level HOLDs remain: SAU03 document edition/date, Sultan Qaboos University precise authoritative edition, historical posting and full sampling-frame reconstruction, full 36-source quote/hash verification, and human independent E/P/U double coding. Do **not** present the supplementary forms as completed independent coder data. R5 preserves N=57 (20 E, 12 P, 25 U), L3 E=1/6, L4 E=6/6 and corrects the literature attribution and 36-record-only versus 57-case Oman sensitivity interpretation. Fuzzy bounds remain descriptive.
+
+The earlier R4 and R2 57-case snapshots, and the separate historical 58-case root research snapshot, are preserved. Public repository ownership identifies the uploader and should not be linked from a strictly double-blind manuscript without conference approval.
+
+---
+
 ## Start here: R4 reader-friendly method and materials (8 November 2026)
 
 The **current reader-oriented 57-case conference manuscript** is **R4**. It provides the named **Four-Layer Public-Evidence Audit (4L-PEA)** and a practical *Freeze → Find → Decide → Release* process. Empirical results are unchanged from R3.
