@@ -1,5 +1,13 @@
 # ICAMAC 2026 Paper 90 — 57-case, eight-page reviewer response (R2, 2026-11-08)
 
+## Direct supplementary-material links for paper readers
+
+- [**Open/download the 3-page supplementary appendix (57 institutions, PDF)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/supplement/ICAMAC2026_Paper90_57_Institutions_Supplement.pdf)
+- [Download the 57-institution linked evidence key (CSV)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_57_Institution_Clickable_Key.csv)
+- [36-source evidence register (PROVISIONAL, CSV)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_Paper90_36_Source_Register_PROVISIONAL.csv) — documentary audit remains subject to the re-verification limits described below.
+
+The paper's repository link leads here; the items above are the intended supplementary materials for the **57-case** ICAMAC 2026 paper, not the 58-case historical repository-root snapshot.
+
 Paper: **From AI Strategy to University Rules in the GCC**. This folder is the **version-matched research data/code record for the 57-institution R2 conference manuscript**. The separate 58-institution root snapshot in the same GitHub repository is NOT the analytical input for this paper.
 
 **Paper baseline:** 6 GCC jurisdictions, official-source register of 36 records, July 23 2026 evidence cutoff; 57 university cases: E=20, P=12, U=25; L3 explicitly traceable in 1/6, L4 in 6/6; L4E and L3-not-E in 5/6; bounded fuzzy gap 0.500. These counts describe public documentation under declared gates, not implementation, causality, country ranking, compliance, or population prevalence.
