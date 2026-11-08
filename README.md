@@ -2,6 +2,8 @@
 
 ## Supplementary materials — read these alongside the paper
 
+**Updated author-linked manuscript (R3, 8 November 2026):** [Open the 8-page conference paper with an explicit direct link to the supplementary PDF](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/manuscript/ICAMAC2026_Paper90_R3_AuthorLinked_8pages.pdf). The 57-case scientific data and results are unchanged from R2. The anonymous review copy is maintained separately, without the author-identifying repository link.
+
 **Direct access for readers of ICAMAC 2026 Paper 90 (57-institution version):**
 
 - [**Supplementary Appendix: 57 university evidence/search links (3-page PDF)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/supplement/ICAMAC2026_Paper90_57_Institutions_Supplement.pdf)

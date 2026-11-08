@@ -2,6 +2,8 @@
 
 ## Direct supplementary-material links for paper readers
 
+**Current author-linked reading copy — R3:** [8-page PDF](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/manuscript/ICAMAC2026_Paper90_R3_AuthorLinked_8pages.pdf) | [editable LaTeX](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/latex/ICAMAC2026_8page_R3_Author_Linked_Supplement_Explicit.tex). This editorial R3 version explicitly names and links the companion **Supplementary Materials PDF** in the paper text; it retains the R2 57-case data and does not change the existing scientific results. The older R2 PDF remains available for comparison.
+
 - [**Open/download the 3-page supplementary appendix (57 institutions, PDF)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/supplement/ICAMAC2026_Paper90_57_Institutions_Supplement.pdf)
 - [Download the 57-institution linked evidence key (CSV)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_57_Institution_Clickable_Key.csv)
 - [36-source evidence register (PROVISIONAL, CSV)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_Paper90_36_Source_Register_PROVISIONAL.csv) — documentary audit remains subject to the re-verification limits described below.

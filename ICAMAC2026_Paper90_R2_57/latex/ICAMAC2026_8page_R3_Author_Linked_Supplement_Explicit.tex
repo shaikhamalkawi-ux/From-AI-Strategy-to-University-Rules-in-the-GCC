@@ -1,0 +1,244 @@
+\documentclass[conference,letterpaper]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage{booktabs,tabularx,array,amsmath,multirow}
+\usepackage{balance}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\newcommand{\stE}{\textsf{E}}
+\newcommand{\stP}{\textsf{P}}
+\newcommand{\stU}{\textsf{U}}
+\newcommand{\evid}{\mathcal{E}}
+\renewcommand{\arraystretch}{1.11}
+\begin{document}
+\title{From AI Strategy to University Rules in the GCC}
+% Anonymized research copy. Authors, acknowledgements, and camera-ready copyright deliberately excluded.
+\author{}
+\maketitle
+\begin{abstract}
+National artificial-intelligence (AI) strategies do not themselves establish public rules that university users can identify and apply. We audit a bilingual Arabic--English, four-layer documentary profile across all six Gulf Cooperation Council (GCC) states: national direction (L1), operational governance (L2), higher-education (HE) governance translation (L3), and institution-level rules (L4). The frozen, 23 July 2026 evidence frame comprises 36 official-source records. Under the primary substantive-control gate, L4 is explicit in all six jurisdictions while L3 is explicit in one; the gap remains in four jurisdictions under a broader interpretation of a recovered UAE HE evaluation framework. A corrected, pre-outcome oldest-four-with-ties corroboration panel covers 57 institutions (20 explicit, 12 partial, 25 unlocated). We distinguish documentary co-presence from demonstrated instrument-to-instrument transmission, document asymmetric L3/L4 qualification, and provide exact finite-corpus robustness bounds. A secondary interval-valued fuzzy representation of partial evidence retains a minimum L4--L3 envelope gap of 0.5 but cannot correct missing sources or coder error. The result is a reusable public-traceability audit, not a country ranking, prevalence estimate, compliance audit, or causal account of policy adoption.
+\end{abstract}
+\begin{IEEEkeywords}
+AI governance, Gulf Cooperation Council, higher education, bilingual policy audit, documentary traceability, evidence admissibility, interval-valued uncertainty.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Generative AI (GenAI) raises immediate university governance questions: which uses are allowed in assessment, what must students disclose, which data may be submitted to external tools, and who remains accountable for verification? An aspirational national strategy does not answer these questions for an instructor or a student. The operational issue is whether the relevant instrument and its authority can be \emph{located in public evidence} at successive governance levels.
+
+Comparative studies describe national strategies in the GCC~\cite{albous}, policies in 40 universities across six regions~\cite{jin}, 116 US research universities~\cite{mcdonald}, and 343 institutions across five countries~\cite{parker}. Assessment guidance~\cite{moorhouse}, comparative university frameworks~\cite{li}, and systematic/institutional reviews~\cite{jiang,khoza,an,bacalso,qian} reveal heterogeneous approaches. Their predominant unit of analysis is a policy or a university; our primary unit is a \emph{four-layer public-document profile within a jurisdiction}. This does not presume that a document in one layer caused an instrument in another. Governance is multi-level and multi-actor~\cite{vukasovic}, and policy-translation studies warn against confusing similar visible products with a documented transmission process~\cite{donina}.
+
+We ask: (RQ1) Under an identical evidence gate and cutoff, which layers have explicitly identifiable instruments? (RQ2) Does the L3--L4 documentary discontinuity survive source recovery, a deterministic institutional corroboration panel, and transparent alternative representations of partial evidence? (RQ3) Which parts of an asserted vertical \emph{policy chain} are observable as document availability, and which would additionally require explicit citations or implementation data?
+
+The contributions are threefold. First, a replicable categorical audit separates \emph{instrument existence}, \emph{documentary linkage}, and \emph{implementation}, which earlier policy-translation language can conflate. Second, a fixed-rule sample of 57 institutions tests whether the jurisdictional L4 existence finding rests on a single example. Third, exact, small-sample sensitivity bounds show which interpretation remains invariant while naming what those bounds \emph{do not} establish. We retain interval-valued fuzzy notation only as a concise representation of partial-state possibilities, not a ranking or discovery algorithm.
+
+\begin{table}[!b]
+\centering\caption{Comparison with adjacent research (object, not quality ranking)}\label{tab:related}
+\footnotesize
+\begin{tabularx}{\columnwidth}{@{}p{0.18\columnwidth}p{0.21\columnwidth}X@{}}
+\toprule
+Study & Coverage & Primary object\tabularnewline\midrule
+Jin et al.~\cite{jin} & 40 HEIs, six regions & Institution policies and adoption\tabularnewline
+McDonald et al.~\cite{mcdonald} & 116 US R1 HEIs & Institution guidance\tabularnewline
+Parker et al.~\cite{parker} & 343 HEIs, five countries & Cross-country university policies\tabularnewline
+Khoza et al.~\cite{khoza} & 35 HEIs, 43 documents & Institutional governance structures\tabularnewline
+This audit & Six GCC states; 57 HEIs & Vertical L1--L4 public evidence; deterministic corroboration\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Construct and Source-Admissibility Protocol}
+\subsection{Different observable claims}
+For jurisdiction $j$ and layer $\ell$, define the categorical documentary state
+\begin{equation}\label{eq:chain}
+ c_j=(L_{1j},L_{2j},L_{3j},L_{4j}),\quad L_{\ell j}\in\{\stE,\stP,\stU\}.
+\end{equation}
+An explicit state $\stE$ means an identifiable, inspectable official instrument meets the \emph{layer-specific} gate. A partial state $\stP$ records an official but narrower, indirect, developmental, or otherwise non-qualifying lead. An unlocated state $\stU$ means no qualifying instrument was located under the documented bilingual public-search closure; $\stU$ neither asserts that no internal rule exists nor alleges noncompliance. These are nominal labels, not ordinal country ratings.
+
+The following three claims must not be interchanged. \emph{Availability} asks whether a qualifying public instrument exists at L1, L2, L3, or L4. \emph{Linkage} requires an inspectable instrument-to-instrument reference, delegation, scope map, or expressly assigned responsibility connecting particular levels. \emph{Implementation} requires evidence of actual institutional use, enforcement, monitoring, or participant experience. The corpus codes availability only. Even a fully $\stE$--$\stE$--$\stE$--$\stE$ vector is therefore \emph{not} proof of causal transmission or administrative alignment. A future link ledger would code directed, dated instrument references as separate edges, never infer them from co-presence.
+
+\begin{table}[t]
+\centering\caption{Layer-specific explicit gates: different scope, same evidential discipline}\label{tab:gates}
+\footnotesize
+\begin{tabularx}{\columnwidth}{@{}p{0.11\columnwidth}X@{}}
+\toprule
+Layer & Requirement for $\stE$ (not merely an announcement)\tabularnewline\midrule
+L1 & Adopted or authoritative national AI direction with identifiable issuer.\tabularnewline
+L2 & Inspectable, cross-sector operational guideline, control, regulation, or equivalent.\tabularnewline
+L3 & Authoritative HE-specific, or education-sector instrument explicitly applicable to HE, \emph{with substantive AI-governance controls}.\tabularnewline
+L4 & At least one applicable university/college AI rule with institutional authority and substantive scope.\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{The intentionally asymmetric L3 and L4 estimands}
+An L3-positive classification is a \emph{sector-level documentary proposition}. For $\stE$, an HE-applicable national or education-sector instrument must specify meaningful controls (e.g., assessment, disclosure, privacy, accountability, or oversight). School-only digital modernisation, a ministry working group still preparing guidance, and a framework measuring AI readiness without prescribing use controls do not satisfy this gate. The resulting $\stP$ or $\stU$ classification follows its documented scope and evidence status.
+
+An L4-positive classification is a much narrower \emph{existential} proposition: \emph{one} qualifying institution in jurisdiction $j$ has an applicable, authoritative public rule. It is not a claim that all, most, or a representative fraction of the country's universities have one. Accordingly, the contrast $L3_j\ne\stE$, $L4_j=\stE$ is a discontinuity between two specific public-evidence propositions. It is neither a ratio of comparable populations nor a gap in verified implementation rates. The panel below provides separate finite-case context, not an estimator of sector-wide prevalence.
+
+\subsection{Frozen source frame and bilingual procedure}
+The analytical cutoff is 23 July 2026. The 36-record official register includes 7 L1, 8 L2, 5 L3, 11 L4, and 5 GCC-regional records. Nineteen were located in Arabic and English, 15 in English only, and two in Arabic only; alternative language versions of one official item do not count as separate instruments. Official government, regulator, ministry and institutional sources take precedence over commentary and search snippets. A dated official announcement can establish \emph{development} or \emph{approval}, but cannot substitute for the text of a required operative instrument.
+
+The search protocol includes Arabic and English families for AI/GenAI, strategy, regulation, policy, governance, education/HE, teaching, assessment, integrity, responsibility, disclosure, privacy, and oversight, combining terms with official domains and document libraries. For each candidate, the audit fields are source ID, jurisdiction, layer, issuing authority, exact title and edition, issue/effective and retrieval dates, language, direct official locator, provision/page, proposed state, and explicit reason for meeting or failing that layer's gate. A $\stU$ closure additionally records searches of the relevant institutional policy library, handbook, integrity/teaching pages and official-domain Arabic/English results. Changing web architecture and search visibility can change $\stU$ without a real policy change; subsequent recovery of an eligible \emph{pre-cutoff} document is logged, not retroactively presented as already discovered.
+
+Arabic/English parity requires checking issuer, scope, approved version, effective date, authority hierarchy, and controlling-language statements separately from translation quality. Qatar University's instructions, for example, identify the English text as a translation for which Arabic prevails when inconsistent~\cite{qataru}. If the authoritative text or a decisive discrepancy is inaccessible, the classification must remain provisional. The current study is not a completed independent bilingual adjudication experiment: no second-coder agreement statistic is claimed.
+
+\subsection{Recovery and the unchanged admission gate}
+Pre-cutoff source recovery found Sultan Qaboos University's 2024 teaching/learning/assessment GenAI guidance~\cite{squ}, making Oman's L4 $\stE$; omitting this recovered document yields a separately reported sensitivity. The UAE's 23 March 2026 HE Outcome-Based Evaluation Framework (OBEF) v11.5~\cite{obef} contains AI-enabled educational design, assessment/analytics, and institutional-readiness dimensions. Under the \emph{primary control gate}, this evaluation framework is $L3=\stP$: a criterion for evaluating AI integration is not itself an operative responsible-use control. A deliberately broader sensitivity treats it as $\stE$. The comparison tests gate dependence without silently redefining L3 after seeing the result.
+
+\input{construct_addendum.tex}
+\section{Pre-Outcome Institutional Corroboration}
+\subsection{Sampling identity and correction trail}
+The L4 jurisdictional gate can close with one institution. For corroboration, a distinct panel was specified \emph{before} examining AI-policy outcomes. Eligible officially recognized or licensed civilian HEIs in each state were separated into G1 public/general, G2 private/non-government and G3 public applied/technical/specialized. Within each jurisdiction--stratum cell, the oldest four according to the current institution's official founding year were selected, ties at fourth place retained, and smaller cells fully included. Institutions directly affiliated with authors were excluded before policy search. Founding year is merely an auditable ordering field: it implies neither seniority-related quality nor policy maturity.
+
+Two retrospective corrections were necessary for \emph{implementing} the unchanged rule. The originally omitted Kingdom University (Bahrain G2, founding year 2001) entered after a pre-cutoff regulator report and index supported its eligibility, removing two later-founded cases~\cite{bqa1,bqa2}. The UAE Commission for Academic Accreditation listed Emirates Institute for Banking and Financial Studies (EIBFS) as an active HEI founded in 1983; it entered UAE G2 and displaced two 1997 cases below the now-corrected threshold~\cite{caa1,caa2}. EIBFS was \emph{then} searched under the same AI-policy gate and was $\stU$. Membership selection and outcome coding were not retrofitted to improve results. The available retrospective record does not, however, reconstruct every excluded eligible HEI; hence the analysis makes no claim of a complete oldest-five candidate universe.
+
+\subsection{Institutional classification and boundary}
+The corrected panel contains $N=57$ institutions: UAE 13, Saudi Arabia 11, Qatar 10, Oman 8, Bahrain 7 and Kuwait 8, with G1/G2/G3 totals 14/24/19. An institutional $\stE$ requires an inspectable AI/GenAI rule with substantively applicable institutional authority; course-only use restrictions, research announcements, platform-limited clauses and draft proposals are generally $\stP$ when they contain direct relevant language, not $\stE$ by association. With no qualifying pre-cutoff material after documented bilingual domain-and-library closure, the state is $\stU$; silence is never coded as explicit absence. The companion 57-institution key retains all clickable official evidence/search locators and distinguishes a context/search homepage from direct rule evidence.
+
+\begin{table*}[t]
+\centering\caption{Nominal public-evidence profiles at the fixed cutoff (black-and-white legible; $\stE$=explicit, $\stP$=partial, $\stU$=unlocated). \emph{No adjacency or causal transmission is inferred.}}\label{tab:profiles}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}p{0.16\textwidth}ccccX@{}}
+\toprule
+Jurisdiction & L1 & L2 & L3 & L4 & Principal interpretation\tabularnewline\midrule
+UAE & \stE & \stE & \stP & \stE & HE OBEF is assessment/readiness evaluation, not an operative HE control under the primary gate.\tabularnewline
+Saudi Arabia & \stE & \stE & \stE & \stE & All four public-instrument gates satisfied; still no demonstrated directed transfer.\tabularnewline
+Qatar & \stE & \stE & \stP & \stE & HE-specific public governance bridge is below the substantive-control gate.\tabularnewline
+Oman & \stE & \stE & \stU & \stE & Recovered 2024 SQU teaching/assessment guidance qualifies as L4.\tabularnewline
+Bahrain & \stP & \stE & \stU & \stE & School-directed digital-empowerment program does not qualify as HE-specific L3.\tabularnewline
+Kuwait & \stP & \stP & \stU & \stE & A formal Kuwait University GenAI rule is identifiable despite partial upstream instruments.\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\section{Results and Exact Sensitivities}
+\subsection{Layer-by-layer outcome}
+Table~\ref{tab:profiles} makes the central contrast inspectable without relying on a color heatmap. The counts are L1 $4\stE+2\stP$, L2 $5\stE+1\stP$, L3 $1\stE+2\stP+3\stU$, and L4 $6\stE$. Define
+\begin{equation}\label{eq:discontinuity}
+D=\sum_{j=1}^{6}\mathbf{1}\{L_{4j}=\stE\ \wedge\ L_{3j}\neq\stE\}=5.
+\end{equation}
+Thus five jurisdictions show explicit institution-level public rules with no primary-gate explicit sector-specific HE control document; Saudi Arabia is the sole full $\stE$--$\stE$--$\stE$--$\stE$ profile. $D$ describes \emph{co-presence across differently scoped documentary gates}, not a count of broken regulatory implementation pathways.
+
+\begin{table}[t]
+\centering\caption{Finite-corpus source and gate sensitivity (not confidence intervals)}\label{tab:robustness}
+\footnotesize
+\begin{tabularx}{\columnwidth}{@{}Xccc@{}}
+\toprule
+Condition & L3 $\stE$ & L4 $\stE$ & $D$\tabularnewline\midrule
+Pre-recovery SQU omission & $1/6$ & $5/6$ & $4/6$\tabularnewline
+Primary recovered evidence & $1/6$ & $6/6$ & $5/6$\tabularnewline
+UAE OBEF broader gate & $2/6$ & $6/6$ & $4/6$\tabularnewline
+Leave Saudi Arabia out & $0/5$ & $5/5$ & $5/5$\tabularnewline
+Leave any other state out & $1/5$ & $5/5$ & $4/5$\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table}
+
+A monotone ``staircase'' story would predict $L4_j=\stE$ only where every preceding layer is explicit. Five vectors contradict that proposition, and four still contradict it under broader UAE admission. This rejects \emph{public-documentary monotonicity} within the six observed vectors, but does not establish the temporal origin of university rules. Ministries may issue non-public guidance, institutions may exercise legitimate autonomy, and public web archives may omit existing instruments.
+
+\subsection{Partial-state sensitivity, without artificial precision}
+Let $n_{\ell,\stE}$ and $n_{\ell,\stP}$ count explicit and partial states in layer $\ell$. The interval-valued fuzzy \emph{representation} for the sole proposition ``explicitly traceable public instrument'' maps $\stE\mapsto[1,1]$, $\stP\mapsto[0,1]$, and $\stU\mapsto[0,0]$, yielding
+\begin{equation}\label{eq:fuzzy}
+\widetilde F_\ell=\left[\frac{n_{\ell,\stE}}6,\ \frac{n_{\ell,\stE}+n_{\ell,\stP}}6\right].
+\end{equation}
+These are elementary lower/upper envelopes implied by the categorical counts, consistent with interval-valued fuzzy-set notation~\cite{petry,pekala}; they are not model-estimated membership functions. Substitution gives $\widetilde F_1=[.667,1]$, $\widetilde F_2=[.833,1]$, $\widetilde F_3=[.167,.500]$, and $\widetilde F_4=[1,1]$. Because even both L3 partial records cannot yield more than $3/6$ explicit membership, every allowed realization satisfies
+\begin{equation}\label{eq:bound}
+F_4-F_3\geq 1-\frac{1+2}{6}=\frac12.
+\end{equation}
+The deliberate OBEF reclassification moves an L3 $\stP$ to $\stE$ but leaves its upper envelope $3/6$ and the minimum gap unchanged. This bound merely makes the worst permitted treatment of $\stP$ transparent; it neither identifies omitted sources nor quantifies coder uncertainty, search recall, quality, or prevalence. The categorical states, not fuzzy averages, remain the primary empirical results.
+
+An additional deterministic \emph{conditional} stress test avoids pretending that agreement was measured. If at most $k$ jurisdictional indicator outcomes in Eq.~\eqref{eq:discontinuity} are changed by an adversarial coding or source-admission revision, then $D_{\rm revised}\geq\max(0,5-k)$. In particular, the direction $D_{\rm revised}>0$ persists when $k\leq4$. No evidence is supplied that $k$ is small, and this algebra cannot substitute for independent recoding. The contribution is a clearly stated robustness threshold, not a probability of correctness.
+
+\subsection{The fixed institutional panel, not a population rate}
+\begin{table*}[t]
+\centering\caption{Corrected 57-institution panel: $(\stE,\stP,\stU)$ in each pre-outcome jurisdiction--stratum cell. Unequal cell sizes are intentional.}\label{tab:institution}
+\footnotesize
+\begin{tabularx}{\textwidth}{@{}lcccc@{}}
+\toprule
+Jurisdiction & G1 public/general & G2 private/non-government & G3 public applied/specialized & Total\tabularnewline\midrule
+UAE & $3,0,1$ (4) & $1,2,1$ (4) & $1,1,3$ (5) & $5,3,5$ (13)\tabularnewline
+Saudi Arabia & $2,1,1$ (4) & $1,1,2$ (4) & $0,2,1$ (3) & $3,4,4$ (11)\tabularnewline
+Qatar & $1,0,1$ (2) & $1,2,1$ (4) & $0,0,4$ (4) & $2,2,6$ (10)\tabularnewline
+Oman & $1,0,0$ (1) & $1,1,2$ (4) & $0,0,3$ (3) & $2,1,5$ (8)\tabularnewline
+Bahrain & $1,0,0$ (1) & $3,0,1$ (4) & $2,0,0$ (2) & $6,0,1$ (7)\tabularnewline
+Kuwait & $1,0,1$ (2) & $1,2,1$ (4) & $0,0,2$ (2) & $2,2,4$ (8)\tabularnewline\midrule
+All six & $9,1,4$ (14) & $8,8,8$ (24) & $3,3,13$ (19) & $20,12,25$ (57)\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+Table~\ref{tab:institution} reports all fixed-cell outcomes. Each jurisdiction contains at least two $\stE$ and at least one non-$\stE$ institutional record. The $20$ explicitly coded rules corroborate L4 existence without supporting universal coverage; $12$ partially supported and $25$ unlocated cases instead expose heterogeneity in this non-random bounded selection. Because ties and small strata lead to unequal cells, raw shares are $20/57=.351$, $12/57=.211$, and $25/57=.439$, whereas equal jurisdiction--stratum-cell weighting changes them to $.414$, $.173$, and $.413$. An oldest-three-with-ties sensitivity retains $47$ institutions ($19\stE$, $6\stP$, $22\stU$). These changes are sensitivity to the \emph{sampling design}, not estimates of population percentages, bias corrections, or country league tables.
+
+\input{robustness_addendum.tex}
+\input{case_addendum.tex}
+\section{Auditable Source Boundaries and Practical Reuse}
+\subsection{Evidence examples that control decisive inferences}
+Several high-impact classifications illustrate why URL provenance is not interchangeable with an inferred chain edge. Sultan Qaboos University\textquotesingle s 2024 teaching/assessment guidance~\cite{squ} supports Oman L4, but not Oman L3. The UAE OBEF v11.5~\cite{obef} is a ministry-issued HE evaluation instrument, but a primary control threshold keeps its L3 state partial. Bahrain\textquotesingle s Digital Empowerment in Education Program~\cite{bahrain} is school-facing and cannot be upgraded to an HE policy. Qatar University\textquotesingle s approved instructions~\cite{qataru} provide applicable institutional instructions, but their bilingual hierarchy requires checking the authoritative Arabic version rather than assuming both languages are independently binding. No one of these cases proves that a lower-level rule was issued \emph{because of} a higher-level strategy.
+
+\subsection{Eight fields for an inspectable public rule}
+A practical outcome of the audit is the proposed documentation schema in Table~\ref{tab:eight}: its fields identify \emph{what must be public to check a claim} rather than offering a new quality ranking. The schema follows recurring documentary needs in the audited instruments and overlaps with UNESCO and OECD guidance~\cite{unesco,oecd}. That overlap is construct alignment, not independent validation of eight factors, an empirically optimized checklist, or proof that their presence makes an institution safe or compliant.
+
+\begin{table}[t]
+\centering\caption{Proposed documentation fields; none is a validated score}\label{tab:eight}
+\footnotesize
+\begin{tabularx}{\columnwidth}{@{}p{0.32\columnwidth}X@{}}
+\toprule
+Public field & Documentary question\tabularnewline\midrule
+Authority and version & Who approved which operative text, and when?\tabularnewline
+Scope and roles & Which people, programs, and activities are covered?\tabularnewline
+Assessment use & What is permitted, conditional, or prohibited?\tabularnewline
+Disclosure & What AI involvement requires acknowledgment?\tabularnewline
+Data and tools & Which data classes and external tools are restricted?\tabularnewline
+Human responsibility & Who verifies outputs and retains accountability?\tabularnewline
+Fairness and challenge & Where are accessibility, bias and appeal addressed?\tabularnewline
+Maintenance and review & Who monitors changes and publishes revisions?\tabularnewline
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{A repeatable source-to-claim audit trail}
+Independent replication needs more than hyperlinks to institutional homepages. Each 36-record source row must be delivered with a \emph{direct document locator}, recorded edition and retrieval date, quote or exact clause/page locator, primary coding gate, reason for partial/unlocated status, alternative-language checks, and stable capture/hash where redistribution is permitted. For the 57 institutions, the companion key provides the locked labels and clickable retained locators in a readable standalone format; a URL to an official homepage for an unlocated case remains a \emph{search locator}, not a supposedly qualifying policy document. A replay should first verify source identity and cutoff, then reconstruct the $\stE/\stP/\stU$ matrix, then regenerate Tables~\ref{tab:profiles}--\ref{tab:institution} and Eqs.~\eqref{eq:discontinuity}--\eqref{eq:bound}. Later web changes belong in a new dated audit window rather than an unreported alteration of the original results.
+
+For prospective independent coding, two coders should independently receive exact frozen source snapshots, a gatebook and two blinded record orders. They should classify (i) source qualification by layer and (ii) any explicit cross-reference in separate fields, with source passages and Arabic/English authority decisions recorded before adjudication. Report a $3\!\times\!3$ nominal confusion matrix for $\stE,\stP,\stU$, raw agreement, and Cohen's $\kappa$ (plus case-specific disagreements), then run both unadjudicated and adjudicated chain results. This is a \emph{protocol for future validation}: independent double-coding, actual adjudication, and agreement estimates were \emph{not performed} for the present results. The version-matched \href{https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R2_57}{GitHub archive (Paper~90; $N=57$)} provides a \href{https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/supplement/ICAMAC2026_Paper90_57_Institutions_Supplement.pdf}{three-page Supplementary Materials PDF} with 57 institutional evidence/search links, a machine-readable 57-case key, a \emph{provisional} 36-source register, and numerical replay code. Independent double-coding and archived third-party source snapshots are not supplied.
+
+\input{repro_addendum.tex}
+\section{Validity and Claim Boundaries}
+The six-state corpus is finite, and individual jurisdictions are not sampled independent draws. Neither leave-one-jurisdiction-out checks nor the conditional perturbation bound are sampling confidence intervals. National direction, ministry HE instruments, and a single university rule have different institutional scales. The current audit tests \emph{availability of evidence at each scale}, not an actual directed chain of authority. A public gap can reflect source invisibility, archived web migration, language differences, or a legitimately decentralized control design. $\stU$ cannot be converted into ``no policy'' or ``noncompliant'' without different evidence.
+
+The deterministic panel is bounded by public eligibility and founding-year information. Although it corrects two boundary omissions, the complete pre-selection universe was not preserved, limiting expanded oldest-$k$ sensitivity. Coder decisions were not independently double-coded; no inter-rater reliability, Arabic--English adjudication rate, search recall, or source-missingness distribution can be estimated from the supplied corpus. Interval-valued notation bounds only the permitted assignments to $\stP$ within the observed records. The public GitHub link in this \emph{author copy} identifies the account owner; the separately supplied blind reviewer copy deliberately omits that link. All source dates, identities and public URLs still require independent verification before a full-replication claim. The audit does not measure student behavior, enforcement, effective compliance, institutional quality, or policy impact.
+
+\section{Conclusion}
+At the frozen 23 July 2026 cutoff, the GCC exhibits six publicly explicit institution-level L4 existence cases but only one primary-gate explicit HE-specific L3 instrument. A broader UAE HE instrument gate raises L3 to two, while four jurisdictions still display the L3--L4 documentary discontinuity. The corrected oldest-four-with-ties panel identifies 20 explicit, 12 partial and 25 unlocated institutional cases; every jurisdiction contributes multiple explicit examples without supporting general prevalence. The robust contribution is a bounded and reusable \emph{public-evidence traceability protocol} that distinguishes instrument availability from documentary linkage and real implementation. It preserves the fuzzy envelope as transparent notation for partial observations and leaves independent source/coder validation as an explicit, necessary next step.
+
+\begin{thebibliography}{25}\footnotesize
+\bibitem{albous} M. R. Albous, O. R. Al-Jayyousi, and M. Stephens, ``AI governance in the GCC states: A comparative analysis of national AI strategies,'' \emph{Journal of Artificial Intelligence Research}, vol. 82, pp. 2389--2422, 2025.
+\bibitem{jin} Y. Jin, L. Yan, V. Echeverria, D. Gasevic, and R. Martinez-Maldonado, ``Generative AI in higher education: A global perspective of institutional adoption policies and guidelines,'' \emph{Computers and Education: Artificial Intelligence}, vol. 8, p. 100348, 2025.
+\bibitem{mcdonald} N. McDonald \emph{et al.}, ``Generative artificial intelligence in higher education: Evidence from an analysis of institutional policies and guidelines,'' \emph{Computers in Human Behavior: Artificial Humans}, vol. 3, p. 100121, 2025.
+\bibitem{parker} L. Parker \emph{et al.}, ``Comparative analysis of artificial intelligence policies in universities across five countries,'' \emph{Discover Computing}, vol. 28, p. 267, 2025.
+\bibitem{moorhouse} B. L. Moorhouse, M. A. Yeo, and Y. Wan, ``Generative AI tools and assessment: Guidelines of the world's top-ranking universities,'' \emph{Computers and Education Open}, vol. 5, p. 100151, 2023.
+\bibitem{li} M. Li \emph{et al.}, ``A framework for developing university policies on generative AI governance: A cross-national comparative study,'' \emph{Studies in Higher Education}, 2026.
+\bibitem{jiang} X. Jiang and Z. Abdullah, ``AI-enabled governance in higher education: A systematic review of applications, outcomes, and emerging implications,'' \emph{Frontiers in Education}, vol. 11, p. 1856440, 2026.
+\bibitem{khoza} M. S. Khoza, S. F. Wamba, and S. Nyawa, ``Mapping the landscape of AI governance in higher education,'' \emph{Assessment \& Evaluation in Higher Education}, 2026.
+\bibitem{an} Y. An, J. H. Yu, and S. James, ``Investigating higher education institutions' guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration,'' \emph{International Journal of Educational Technology in Higher Education}, vol. 22, p. 10, 2025.
+\bibitem{bacalso} F. D. Bacalso \emph{et al.}, ``Institutional approaches to generative AI management in higher education: A systematic review,'' \emph{Frontiers in Education}, vol. 11, p. 1814426, 2026.
+\bibitem{qian} Y. Qian, ``Governing generative AI in higher education: Emerging policy approaches and support ecosystems at innovative U.S. universities,'' \emph{International Journal for Educational Integrity}, vol. 22, p. 25, 2026.
+\bibitem{vukasovic} M. Vukasovic, ``Higher education governance and policy: An introduction to multi-issue, multi-level and multi-actor dynamics,'' \emph{Policy and Society}, vol. 36, no. 1, pp. 1--15, 2017.
+\bibitem{donina} D. Donina and S. Hasanefendic, ``Higher education institutional governance reforms in the Netherlands, Portugal, and Italy: A policy translation perspective addressing the homogeneous/heterogeneous dilemma,'' \emph{Higher Education Quarterly}, vol. 73, no. 1, pp. 29--44, 2019.
+\bibitem{squ} Sultan Qaboos University, ``Guidelines for using GenAI tools in teaching, learning and assessment,'' 2024. [Online]. Available: \url{https://www.squ.edu.om/About/Support-Centers-/Centre-For-Excellence-In-Teaching-and-Learning}.
+\bibitem{obef} UAE Ministry of Higher Education and Scientific Research, ``University guidebook for outcome-based evaluation framework (OBEF), version 11.5,'' 23 Mar. 2026. [Online]. Available: \url{https://www.mohesr.gov.ae/Documents/OBF%20University%20Guide%20-%20EN.pdf}.
+\bibitem{bqa1} Education and Training Quality Authority (BQA), Bahrain, ``Institutional review report: Kingdom University,'' 2019. [Online]. Available: \url{https://www.bqa.gov.bh/En/Reports/UniReports/HigherEducationReport/KU%20Inst%20en%20C2.pdf}.
+\bibitem{bqa2} Education and Training Quality Authority (BQA), Bahrain, ``Higher education reports,'' 2026; index modified 7 July 2026. [Online]. Available: \url{https://www.bqa.gov.bh/institutions-performance/higher-education-reports/}.
+\bibitem{caa1} Commission for Academic Accreditation, UAE, ``Renewal of licensure: Emirates Institute for Banking and Financial Studies---executive summary,'' 2019. [Online]. Available: \url{https://caa.ae/PORTALSUMMARYREPORTS/16/EIBFS%20Executive%20Summary.pdf}.
+\bibitem{caa2} Commission for Academic Accreditation, UAE, ``Higher education institution: Emirates Institute for Banking and Financial Studies,'' 2026. [Online]. Available: \url{https://www.caa.ae/Pages/Institutes/Details.aspx?GUID=16}.
+\bibitem{petry} F. E. Petry and R. R. Yager, ``Interval-valued fuzzy sets aggregation and evaluation approaches,'' \emph{Applied Soft Computing}, vol. 124, p. 108887, 2022.
+\bibitem{pekala} B. P\k{e}kala, K. Dyczkowski, P. Grzegorzewski, and U. Bentkowska, ``Inclusion and similarity measures for interval-valued fuzzy sets based on aggregation and uncertainty assessment,'' \emph{Information Sciences}, vol. 547, pp. 1182--1200, 2021.
+\bibitem{bahrain} Ministry of Education, Kingdom of Bahrain, ``Digital empowerment in education program,'' updated 30 Dec. 2025; school-sector target groups. [Online]. Available: \url{https://moe.gov.bh/en/digital-empowerment-in-education-program}.
+\bibitem{unesco} UNESCO, \emph{Guidance for Generative AI in Education and Research}. Paris: UNESCO, 2023.
+\bibitem{oecd} OECD, ``Policies supporting responsible and systematic GenAI adoption in higher education,'' \emph{OECD Education Spotlights}, no. 23, 2026.
+\bibitem{qataru} Qatar University, ``Instructions on the use of generative artificial intelligence tools at Qatar University,'' approved/effective 25 Dec. 2025; English translation of Arabic original. [Online]. Available: \url{https://www.qu.edu.qa/en-us/about/policy/Documents/Instructions%20onThe%20Use%20of%20Generative%20Artificial%20Intelligence%20Tools%20at%20Qatar%20University-Approved.pdf}.
+\end{thebibliography}
+\end{document}
