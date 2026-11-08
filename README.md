@@ -1,5 +1,21 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Start here: R4 reader-friendly method and materials (8 November 2026)
+
+The **current reader-oriented 57-case conference manuscript** is **R4**. It provides the named **Four-Layer Public-Evidence Audit (4L-PEA)** and a practical *Freeze → Find → Decide → Release* process. Empirical results are unchanged from R3.
+
+- **[Read the four-page ICAMAC manuscript (author-linked PDF)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/manuscript/ICAMAC_Paper90_R4_AuthorLinked.pdf)**
+- **[Open the eight-page worked field guide + all 57 institutional links (PDF)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/supplement/ICAMAC_Paper90_R4_FieldGuide_and_57_Appendix.pdf)**
+- **[Use the nine-tab reusable audit workbook (XLSX)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/resources/ICAMAC_Paper90_R4_Reusable_Audit_Workbook.xlsx)**
+- [Inspect all 57 original evidence/search locators (CSV)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/data/ICAMAC2026_57_Institution_Clickable_Key.csv)
+- [Inspect the official-source register (36 records, **PROVISIONAL**)](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/data/ICAMAC2026_Paper90_36_Source_Register_PROVISIONAL.csv)
+- [Copy the Arabic-English prospective search queries](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/data/PROSPECTIVE_Bilingual_Search_Queries.csv), [blank source ledger](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/data/PROSPECTIVE_Blank_Source_Register.csv), and [blank independent coding form](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/data/PROSPECTIVE_Independent_Coding.csv)
+- [See the point-by-point reviewer-response boundary map](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/REVIEWER_RESPONSE_MAP.md) and [run the 57-case numerical script](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R4_57/code/reproduce_57.py)
+
+**The 57-case empirical result remains 20 explicit / 12 partial / 25 unlocated, with L3 E in 1/6 and L4 E in 6/6 jurisdictions.** The fuzzy interval is a secondary sensitivity representation, not a ranking. This release does **not** establish independent intercoder agreement, proof of actual implementation, or complete provenance snapshots for every official source. The public account can identify authors and **must not be linked from a strictly blind-review manuscript unless the venue permits it**.
+
+---
+
 ## Supplementary materials — read these alongside the paper
 
 **Updated author-linked manuscript (R3, 8 November 2026):** [Open the 8-page conference paper with an explicit direct link to the supplementary PDF](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/manuscript/ICAMAC2026_Paper90_R3_AuthorLinked_8pages.pdf). The 57-case scientific data and results are unchanged from R2. The anonymous review copy is maintained separately, without the author-identifying repository link.

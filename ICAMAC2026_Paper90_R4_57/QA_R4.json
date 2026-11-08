@@ -1,0 +1,89 @@
+{
+  "author": {
+    "pages": 4,
+    "size_bytes": 234715,
+    "sha256": "a488ce5073ef7e92dd40b9146db555e5e4f0f5e62fb2cf23a55202407d505d50",
+    "links": 19,
+    "github_link_count": 3,
+    "metadata_author": "",
+    "unreadable_char_count": 0,
+    "no_type3_fonts": true,
+    "unused_base14_font_resource": null
+  },
+  "blind": {
+    "pages": 4,
+    "size_bytes": 234242,
+    "sha256": "ec97587c3a1fd38fe15e5dc020b9dd7dd078ee8daeac4e6934b0f4c7ef48b522",
+    "links": 16,
+    "github_link_count": 0,
+    "metadata_author": "",
+    "unreadable_char_count": 0,
+    "no_type3_fonts": true,
+    "unused_base14_font_resource": null
+  },
+  "supplement": {
+    "pages": 8,
+    "size_bytes": 116558,
+    "sha256": "8e16c4db2b15f29a0103f6a640667ed01a32075a6d978c96d19f3a4ae049816e",
+    "links": 60,
+    "github_link_count": 3,
+    "metadata_author": "(anonymous)",
+    "unreadable_char_count": 0,
+    "no_type3_fonts": true,
+    "unused_base14_font_resource": "Helvetica present but never used to draw glyphs"
+  },
+  "blind_supplement": {
+    "pages": 8,
+    "size_bytes": 115456,
+    "sha256": "1adeb30ac2fe2d1c6693618e621426acd9a0d7d4c0eaa8f8e07b82a8aaf0b4b9",
+    "links": 57,
+    "github_link_count": 0,
+    "metadata_author": "(anonymous)",
+    "unreadable_char_count": 0,
+    "no_type3_fonts": true,
+    "unused_base14_font_resource": "Helvetica present but never used to draw glyphs"
+  },
+  "institution_key": {
+    "pages": 4,
+    "size_bytes": 65875,
+    "sha256": "d7e3049fd731ed716e727587cadb90b71183ce814b9fc718696daf13446abb44",
+    "links": 57,
+    "github_link_count": 0,
+    "metadata_author": "(anonymous)",
+    "unreadable_char_count": 0
+  },
+  "reader_combined": {
+    "pages": 12,
+    "size_bytes": 375408,
+    "sha256": "96e66487b6afdbbc425c92b9ffc6cab62a96d8552022864a98a33d7889ff874c",
+    "links": 79,
+    "github_link_count": 6,
+    "metadata_author": "",
+    "unreadable_char_count": 0
+  },
+  "citation_check": {
+    "listed": 25,
+    "unique_cited": 25,
+    "undefined": [],
+    "uncited": []
+  },
+  "locked_results": {
+    "N": 57,
+    "E": 20,
+    "P": 12,
+    "U": 25,
+    "L3_E": 1,
+    "L4_E": 6,
+    "mismatch": 5,
+    "fuzzy_min_gap": 0.5,
+    "historical_cutoff": "2026-07-23"
+  },
+  "admission_limitations": {
+    "independent_human_double_coding": "NOT EXECUTED",
+    "full_36_source_passage_and_hash_reverification": "HOLD",
+    "complete_historical_search_and_eligibility_universe": "NOT PRESERVED",
+    "doi": "NOT ISSUED",
+    "license": "AUTHOR DECISION PENDING"
+  },
+  "bundle_crc": "PASS"
+}

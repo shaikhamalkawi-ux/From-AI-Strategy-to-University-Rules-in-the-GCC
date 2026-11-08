@@ -1,0 +1,7 @@
+﻿Language,Family,Template_exact_string,Instruction
+en,national-policy,"site:{official-domain} (""artificial intelligence"" OR ""generative AI"") (strategy OR policy OR guideline)",Check original government document
+en,university-rule,"site:{university-domain} (""generative AI"" OR ChatGPT) (policy OR guideline OR regulation)",Check university policy library and actual approved text
+en,assessment,"site:{university-domain} (AI OR ""artificial intelligence"") (assessment OR syllabus OR ""academic integrity"")",Course-only rules may be partial
+ar,institutional-rule,"site:{official-domain} ""الذكاء الاصطناعي"" (""سياسة"" OR ""ضوابط"" OR ""لائحة"")",Check Arabic original and approval
+ar,assessment,"site:{university-domain} ""الذكاء الاصطناعي التوليدي"" (""التقييم"" OR ""التدريس"" OR ""النزاهة الأكاديمية"")",Record controlling-language clause
+ar,privacy,"site:{university-domain} ""الذكاء الاصطناعي"" (""الإفصاح"" OR ""الخصوصية"" OR ""الطلاب"")",Search direct policy; record context if not located
