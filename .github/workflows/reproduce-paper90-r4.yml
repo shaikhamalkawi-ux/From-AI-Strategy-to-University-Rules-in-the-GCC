@@ -1,0 +1,21 @@
+name: "ICAMAC 2026 Paper 90 R4 — Reproduce 57-case classifications"
+on:
+  push:
+    paths:
+      - 'ICAMAC2026_Paper90_R4_57/**'
+      - '.github/workflows/reproduce-paper90-r4.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recompute declared categorical summaries
+        run: python3 ICAMAC2026_Paper90_R4_57/code/reproduce_57.py
+      - name: Verify locked outcomes and sensitivities
+        run: python3 ICAMAC2026_Paper90_R4_57/code/verify_locked_outcomes.py
