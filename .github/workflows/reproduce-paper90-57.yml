@@ -1,0 +1,19 @@
+name: ICAMAC 2026 Paper 90 — reproduce 57-case numerical results
+on:
+  push:
+    paths:
+      - 'ICAMAC2026_Paper90_R2_57/**'
+      - '.github/workflows/reproduce-paper90-57.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  counts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 ICAMAC2026_Paper90_R2_57/code/reproduce_57.py
+      - run: python3 ICAMAC2026_Paper90_R2_57/code/verify_locked_outcomes.py

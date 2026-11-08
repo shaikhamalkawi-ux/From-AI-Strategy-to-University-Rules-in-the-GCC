@@ -1,0 +1,72 @@
+{
+  "source_cutoff": "2026-07-23",
+  "panel_N": 57,
+  "panel_counts": {
+    "E": 20,
+    "U": 25,
+    "P": 12
+  },
+  "jurisdiction_counts": {
+    "AE": {
+      "E": 5,
+      "U": 5,
+      "P": 3
+    },
+    "SA": {
+      "E": 3,
+      "U": 4,
+      "P": 4
+    },
+    "QA": {
+      "E": 2,
+      "U": 6,
+      "P": 2
+    },
+    "OM": {
+      "E": 2,
+      "U": 5,
+      "P": 1
+    },
+    "BH": {
+      "E": 6,
+      "U": 1
+    },
+    "KW": {
+      "E": 2,
+      "U": 4,
+      "P": 2
+    }
+  },
+  "l3_explicit": 1,
+  "l4_explicit": 6,
+  "l4_explicit_l3_not": 5,
+  "fuzzy_representation_envelopes": {
+    "L1": {
+      "lower": 0.6666666666666666,
+      "upper": 1.0
+    },
+    "L2": {
+      "lower": 0.8333333333333334,
+      "upper": 1.0
+    },
+    "L3": {
+      "lower": 0.16666666666666666,
+      "upper": 0.5
+    },
+    "L4": {
+      "lower": 1.0,
+      "upper": 1.0
+    }
+  },
+  "broad_uae_D": 4,
+  "conditional_min_gap_by_changed_indicator_count": {
+    "0": 5,
+    "1": 4,
+    "2": 3,
+    "3": 2,
+    "4": 1,
+    "5": 0,
+    "6": 0
+  },
+  "validation_boundary": "Arithmetic only; no source recall, coder agreement, or implementation validation."
+}

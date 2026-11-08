@@ -1,0 +1,10 @@
+{
+  "paper_pages": 8,
+  "supplement_pages": 3,
+  "supplement_links": 57,
+  "repository_link_verified_in_author_copy": true,
+  "paper_sha256": "da0194c0de8426f7b815538b353f44c21b318eaa9f87a80d7881b0673b2ad8d5",
+  "supplement_sha256": "55ca799983f7c4cbff7a40ba56a77f9fd874d38adad5b716f7dc1ef52796db36",
+  "status": "PASS",
+  "boundary": "visual/content/URL QA, not independent source or code validation"
+}

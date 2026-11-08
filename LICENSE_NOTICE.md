@@ -1,7 +1,7 @@
-# Rights and license notice
+# Rights and license notice (8 November 2026)
 
-This file is a **rights notice, not a formal public-release license**. No software, data or documentation license has been selected on the authors' behalf.
+The GitHub repository is public but **no formal author-approved reuse license is currently declared**. This README is an access/status notice, not a grant of additional permissions. The authors may separately select suitable licenses for their self-authored tabular metadata/code after permissions review.
 
-Author-created code and tabular audit metadata may be prepared for public reuse once the authors choose the applicable license(s). Third-party source documents remain subject to their original rights and are not relicensed by this archive. Official URLs are provided as provenance locators.
+Official source documents remain subject to the issuing institutions' and governments' original rights; only source metadata, links and author-generated calculations/scripts are included. No publisher journal PDF or restricted third-party document is uploaded here without permission.
 
-Public GitHub/Zenodo release remains on hold during double-blind review and until the authors make the final licensing decision.
+GitHub availability does not mean that independent coding, web-archive snapshots, or repository DOI deposition has been completed.
