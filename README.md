@@ -1,5 +1,15 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Supplementary materials — read these alongside the paper
+
+**Direct access for readers of ICAMAC 2026 Paper 90 (57-institution version):**
+
+- [**Supplementary Appendix: 57 university evidence/search links (3-page PDF)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/supplement/ICAMAC2026_Paper90_57_Institutions_Supplement.pdf)
+- [**57-institution machine-readable evidence key (CSV)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_57_Institution_Clickable_Key.csv)
+- [**36-record official-source register — PROVISIONAL (CSV)**](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R2_57/data/ICAMAC2026_Paper90_36_Source_Register_PROVISIONAL.csv) — source-level passages and archival records are not fully independently reverified.
+
+The linked appendix and dataset belong to the **57-case** conference revision, not the older **58-case** repository-root analysis. The supplement supplies hyperlinks and classifications; it does not itself establish independent double coding or institutional compliance.
+
 This repository contains **two distinct analytical snapshots**. **Do not combine their institution counts or scripts.**
 
 ## Current ICAMAC 2026 Paper 90 reviewer-response snapshot: **57 institutions**
