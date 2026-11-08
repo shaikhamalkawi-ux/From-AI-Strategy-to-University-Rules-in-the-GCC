@@ -1,5 +1,11 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Current reader-facing proofread version — R5R1 (9 November 2026)
+
+**[Open the corrected ICAMAC 2026 Paper 90 manuscript and its R5 supplement/workbook](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5R1_57)**. This revision restores a missing printed explanatory note beneath Table III and corrects first-use acronym definitions and production wording. The **R5 57-case data and 10-page appendix are unchanged**, as are all 33 scientific references and every numerical result. It is a proofread author-linked draft, **not yet camera-ready validated**.
+
+---
+
 ## Current research-author revision — R5 (8 November 2026)
 
 **[Open the R5 version-matched source, paper, supplements and reusable data](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5_57)**
