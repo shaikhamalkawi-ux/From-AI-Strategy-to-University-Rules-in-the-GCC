@@ -1,0 +1,21 @@
+name: "ICAMAC 2026 Paper 90 R5 — Numerical reproduction"
+on:
+  push:
+    paths:
+      - 'ICAMAC2026_Paper90_R5_57/**'
+      - '.github/workflows/reproduce-paper90-r5.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recompute descriptive results from locked inputs (not source coding)
+        run: python3 ICAMAC2026_Paper90_R5_57/code/reproduce_57.py
+      - name: Verify 57-case and six-state arithmetic
+        run: python3 ICAMAC2026_Paper90_R5_57/code/verify_locked_outcomes.py
