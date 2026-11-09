@@ -1,0 +1,72 @@
+{
+  "audit_date": "2026-11-09",
+  "science_changed": false,
+  "source_line_edits": {
+    "added": 7,
+    "removed": 7,
+    "total": 14
+  },
+  "source_changed_lines": {
+    "old": [
+      "The fixed source date is \\textbf{23 July 2026}. The original 36-record register comprises seven L1, eight L2, five L3, eleven L4, and five GCC-regional records. Nineteen records have an Arabic and English location, fifteen an English location only, and two an Arabic location only. The register's document titles, issuer, date, locator and classification rationale are available online, but the full set of verbatim excerpts and independent archival hashes has \\emph{not} been reverified for this revision. Source recovery is not retrospectively presented as a fresh complete search.",
+      "\\centering\\caption{GCC results at the fixed cutoff: four documentary states and the independent 57-institution corroboration counts. The last three columns are \\emph{selected-case counts}, not national prevalence rates.}",
+      "\\bibitem{moorhouse} B. L. Moorhouse, M. A. Yeo, and Y. Wan, ``Generative AI tools and assessment: Guidelines of the world's top-ranking universities,'' \\emph{Computers and Education Open}, vol. 5, p. 100151, 2023.",
+      "\\bibitem{an} Y. An, J. H. Yu, and S. James, ``Investigating higher education institutions' guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration,'' \\emph{International Journal of Educational Technology in Higher Education}, vol. 22, p. 10, 2025.",
+      "\\bibitem{donina} D. Donina and S. Hasanefendic, ``Higher education institutional governance reforms in the Netherlands, Portugal, and Italy: A policy translation perspective addressing the homogeneous/heterogeneous dilemma,'' \\emph{Higher Education Quarterly}, vol. 73, no. 1, pp. 29--44, 2019.",
+      "\\bibitem{petry} F. E. Petry and R. R. Yager, ``Interval-valued fuzzy sets aggregation and evaluation approaches,'' \\emph{Applied Soft Computing}, vol. 124, p. 108887, 2022.",
+      "\\bibitem{pekala} B. P\\k{e}kala, K. Dyczkowski, P. Grzegorzewski, and U. Bentkowska, ``Inclusion and similarity measures for interval-valued fuzzy sets based on aggregation and uncertainty assessment,'' \\emph{Information Sciences}, vol. 547, pp. 1182--1200, 2021."
+    ],
+    "new": [
+      "The fixed source date is \\textbf{23 July 2026}. The retained 36-record register comprises seven L1, eight L2, five L3, eleven L4, and five GCC-regional records. Nineteen records have an Arabic and English location, fifteen an English location only, and two an Arabic location only. The register's document titles, issuer, date, locator and classification rationale are available online, but the full set of verbatim excerpts and independent archival hashes has \\emph{not} been reverified for this revision. Source recovery is not retrospectively presented as a fresh complete search.",
+      "\\centering\\caption{GCC results at the fixed cutoff: four governance layers and separate 57-institution corroboration counts. The last three columns are \\emph{selected-case counts}, not national prevalence rates.}",
+      "\\bibitem{moorhouse} B. L. Moorhouse, M. A. Yeo, and Y. Wan, ``Generative AI tools and assessment: Guidelines of the world's top-ranking universities,'' \\emph{Computers and Education Open}, vol. 5, p. 100151, 2023, doi: 10.1016/j.caeo.2023.100151.",
+      "\\bibitem{an} Y. An, J. H. Yu, and S. James, ``Investigating higher education institutions' guidelines and policies regarding the use of generative AI in teaching, learning, research, and administration,'' \\emph{International Journal of Educational Technology in Higher Education}, vol. 22, p. 10, 2025, doi: 10.1186/s41239-025-00507-3.",
+      "\\bibitem{donina} D. Donina and S. Hasanefendic, ``Higher education institutional governance reforms in the Netherlands, Portugal, and Italy: A policy translation perspective addressing the homogeneous/heterogeneous dilemma,'' \\emph{Higher Education Quarterly}, vol. 73, no. 1, pp. 29--44, 2019, doi: 10.1111/hequ.12183.",
+      "\\bibitem{petry} F. E. Petry and R. R. Yager, ``Interval-valued fuzzy sets aggregation and evaluation approaches,'' \\emph{Applied Soft Computing}, vol. 124, p. 108887, 2022, doi: 10.1016/j.asoc.2022.108887.",
+      "\\bibitem{pekala} B. P\\k{e}kala, K. Dyczkowski, P. Grzegorzewski, and U. Bentkowska, ``Inclusion and similarity measures for interval-valued fuzzy sets based on aggregation and uncertainty assessment,'' \\emph{Information Sciences}, vol. 547, pp. 1182--1200, 2021, doi: 10.1016/j.ins.2020.09.072."
+    ]
+  },
+  "refs_unique": 33,
+  "refs_used": 33,
+  "duplicate_bibitems": 0,
+  "undefined_citations": 0,
+  "unused_bibitems": 0,
+  "variants": {
+    "reader": {
+      "pages": 6,
+      "sha256": "01570eb646eeb4a68e08c38c52047956df758419718f7936a011b6e73e4248a3",
+      "size": 242461,
+      "pdf_author_metadata": "",
+      "type3_fonts": 0,
+      "links": 85,
+      "word_count": 4338,
+      "has_doi_5": true,
+      "title_consistent": true
+    },
+    "blind": {
+      "pages": 6,
+      "sha256": "8f29f33292930a1a5eeba650d15b54b32f3a063761d657c72bd894d3b211e711",
+      "size": 294410,
+      "pdf_author_metadata": "",
+      "type3_fonts": 0,
+      "links": 80,
+      "word_count": 4327,
+      "has_doi_5": true,
+      "title_consistent": true
+    },
+    "camera_provisional": {
+      "pages": 6,
+      "sha256": "46a186bc5b6bfacf1b6e884a23fec042facf8ab5cdd9dbc38bb43c38d3c47465",
+      "size": 314867,
+      "pdf_author_metadata": "",
+      "type3_fonts": 0,
+      "links": 85,
+      "word_count": 4393,
+      "has_doi_5": true,
+      "copyright_footer_top_pt": 710.39,
+      "title_consistent": true
+    }
+  },
+  "human_coding": "NOT COMPLETED",
+  "camera_ready": "HOLD_CMT_author_approval_PDF_eXpress_AI_disclosure_source_gates"
+}

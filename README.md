@@ -1,5 +1,11 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Latest six-page method and proofread release — R6R1 (9 November 2026)
+
+**[ICAMAC 2026 Paper 90 — six-page reproducible method, audit record and linked companion materials](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R6R1_57)**. This is the latest reader-facing version; it preserves the R5 numerical corpus and uses the original R5 supplement/workbook. It fixes the R6 Table II caption, completes five DOIs and documents camera-ready formatting and anonymous-URL leak repairs. **Not yet IEEE PDF eXpress validated; missing independent source coding and author-approval gates are documented.**
+
+---
+
 ## Current reader-facing proofread version — R5R1 (9 November 2026)
 
 **[Open the corrected ICAMAC 2026 Paper 90 manuscript and its R5 supplement/workbook](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R5R1_57)**. This revision restores a missing printed explanatory note beneath Table III and corrects first-use acronym definitions and production wording. The **R5 57-case data and 10-page appendix are unchanged**, as are all 33 scientific references and every numerical result. It is a proofread author-linked draft, **not yet camera-ready validated**.
