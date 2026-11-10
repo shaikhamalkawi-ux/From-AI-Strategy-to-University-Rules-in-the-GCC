@@ -1,5 +1,11 @@
 # From AI Strategy to University Rules in the GCC — reproducibility archive
 
+## Latest IEEE citation-verified manuscript — R6R2 (10 November 2026)
+
+**[Read the updated six-page Paper 90 manuscript with 38 references](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R6R2_38refs/ICAMAC2026_Paper90_R6R2_AuthorLinked_6pages.pdf)**. The manuscript now includes five Malkawi coauthored fuzzy-mathematics references and sorts **all 38 IEEE bibliography entries by first appearance**. Every entry is cited; numerical results and the 57-case corpus remain unchanged from R6R1. [Reference mapping and QA](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/blob/main/ICAMAC2026_Paper90_R6R2_38refs/qa/IEEE_Reference_Number_Mapping.csv). **Camera-Ready approval and independent documentary validation remain pending.**
+
+---
+
 ## Latest six-page method and proofread release — R6R1 (9 November 2026)
 
 **[ICAMAC 2026 Paper 90 — six-page reproducible method, audit record and linked companion materials](https://github.com/shaikhamalkawi-ux/From-AI-Strategy-to-University-Rules-in-the-GCC/tree/main/ICAMAC2026_Paper90_R6R1_57)**. This is the latest reader-facing version; it preserves the R5 numerical corpus and uses the original R5 supplement/workbook. It fixes the R6 Table II caption, completes five DOIs and documents camera-ready formatting and anonymous-URL leak repairs. **Not yet IEEE PDF eXpress validated; missing independent source coding and author-approval gates are documented.**

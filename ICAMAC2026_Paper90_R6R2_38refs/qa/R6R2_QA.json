@@ -1,0 +1,50 @@
+{
+  "baseline": "R6R1",
+  "version": "R6R2",
+  "cases_unchanged": 57,
+  "E_P_U_unchanged": [
+    20,
+    12,
+    25
+  ],
+  "reference_count_before": 33,
+  "references_added": 5,
+  "reference_count_after": 38,
+  "first_appearance_order_PASS": true,
+  "citation_key_parity_PASS": true,
+  "variants": {
+    "reader": {
+      "pdf": "/mnt/data/ICAMAC2026_R6R2_SelfCitation_ReferenceOrder_Work/build_reader/ICAMAC2026_Paper90_R6R2_reader.pdf",
+      "sha256": "5af94c0824e039e4197b7f32e98a52e5956c2543f9449f9400d00ba83d403f32",
+      "pages": 6,
+      "refs": 38,
+      "source_changed_only_fuzzy_para_and_bibliography": true,
+      "out_of_bounds_words": 0,
+      "type3_fonts": 0,
+      "github_urls": 5,
+      "source_sha256": "4e17bcb9f3fa170d9a731d979e56bcb788576f7ddbb80c485d3e77829ed087cb"
+    },
+    "blind": {
+      "pdf": "/mnt/data/ICAMAC2026_R6R2_SelfCitation_ReferenceOrder_Work/build_blind/ICAMAC2026_Paper90_R6R2_blind.pdf",
+      "sha256": "94fba1f97cdd62ebdd603ea650025f3470459a5881af722550474780d0ba5ef5",
+      "pages": 6,
+      "refs": 38,
+      "source_changed_only_fuzzy_para_and_bibliography": true,
+      "out_of_bounds_words": 0,
+      "type3_fonts": 0,
+      "github_urls": 0,
+      "source_sha256": "ec37a1d526ae14f8eef58355590e17f268edf0c2259fc78ee46cf7b28e6a94b6"
+    },
+    "camera": {
+      "pdf": "/mnt/data/ICAMAC2026_R6R2_SelfCitation_ReferenceOrder_Work/build_camera/ICAMAC2026_Paper90_R6R2_camera.pdf",
+      "sha256": "41bd2967b5187ff34149722cbac1fe749ac07459c7a02594f8724b20138b4d5f",
+      "pages": 6,
+      "refs": 38,
+      "source_changed_only_fuzzy_para_and_bibliography": true,
+      "out_of_bounds_words": 0,
+      "type3_fonts": 0,
+      "github_urls": 5,
+      "source_sha256": "50079143f02e611facc8ad9b55543b08782b3bb82d126f2ab011f377e116d958"
+    }
+  }
+}
